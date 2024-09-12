@@ -1,0 +1,108 @@
+.img {
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 100%;
+	max-height: 100%;
+	object-fit: cover;
+}
+
+.file-wrapper {
+	display: flex;
+	flex-flow: wrap;
+	margin-bottom: -25px !important;
+}
+
+.img-container {
+	&.header {
+		.file-upload {
+			height: 266px;
+			width: calc(100% - 20px);
+			background-color: rgba(31, 30, 35, 1);
+			background-image: url(/images/placeholder_star.png);
+			background-repeat: no-repeat;
+			background-size: 100px;
+			background-position: center;
+		}
+    
+	}
+	&.logo {
+		.file-upload {
+			width: 250px;
+			height: 250px;
+			background-color: rgba(31, 30, 35, 1);
+			background-image: url(/images/placeholder_star.png);
+    	background-repeat: no-repeat;
+			background-size: 100px;
+    	background-position: center;
+		}
+	}
+
+	&.nft {
+		margin-bottom: 20px;
+		.file-upload {
+			width: 200px;
+			height: 200px;
+			background-color: rgba(31, 30, 35, 1);
+			background-image: url(/images/placeholder_star.png);
+    	background-repeat: no-repeat;
+			background-size: 100px;
+    	background-position: center;
+			margin-right: 15px;
+		}
+	}
+
+	.file-upload {
+		border-radius: 8px;
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		margin-bottom: 5px;
+		&:before {
+			content: "";
+			position: absolute;
+			border: 1px dashed #444448;;
+			border-radius: 10px;
+
+			top: -6px;
+			left: -6px;
+			bottom: -6px;
+			right: -6px;
+		}
+
+		input {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			opacity: 0;
+			background-color: #1e1e1f;
+		}
+	}
+}
+
+.file-container {
+	input {
+		display: none;
+	}
+	.img {
+		width: 320px;
+		height: 320px;
+	}
+
+  .image-description {
+    width: 320px;
+    margin-top: 24px;
+    line-height: 18px;
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+}
+
+
+.invalid {
+	color: red;
+	font-size: 12px;
+	margin-left: 15px;
+}

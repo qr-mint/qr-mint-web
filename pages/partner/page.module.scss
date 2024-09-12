@@ -1,0 +1,13 @@
+.container {
+	position: relative;
+	background: var(--bg-block, #1e1e1f);
+	border-radius: 15px;
+	padding: 20px;
+}
+
+.btn_copy {
+	padding: 5px;
+	svg {
+		fill: white;
+	}
+}

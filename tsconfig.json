@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": false,
+		"noEmit": true,
+		"incremental": true,
+		"module": "esnext",
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": [
+		"next-env.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"components/Canvas/useCanvas.js",
+		"components/Canvas/index.js",
+		"api/users.js",
+		"api/request.js",
+		"api/partner.js",
+		"api/nft.js",
+		"api/generate.js",
+		"api/auth.js"
+	],
+	"exclude": ["node_modules"]
+}

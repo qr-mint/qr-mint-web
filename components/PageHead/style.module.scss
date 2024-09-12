@@ -1,0 +1,35 @@
+@media screen and (max-width: 767px) {
+	.p-header {
+		padding: 30px 0 34px;
+	}
+	.p-title {
+		margin-bottom: 12px;
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+	.p-subtitle {
+		font-size: 14px;
+		line-height: 140%;
+	}
+}
+
+.p-header {
+	padding: 50px 0 34px;
+}
+
+.p-title {
+	text-align: center;
+	font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.p-subtitle {
+	font-size: 16px;
+	line-height: 140%;
+	width: 500px;
+	max-width: 100%;
+	margin: 0 auto 20px;
+	text-align: center;
+}

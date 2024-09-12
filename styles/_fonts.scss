@@ -1,0 +1,101 @@
+// Inder 400
+@font-face {
+	font-family: "Inder";
+	src: url("/fonts/Inder/Inder-Regular.woff"),
+		url("/fonts/Inder/Inder-Regular.woff2");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+// Inter 400 500 600 700
+
+@font-face {
+	font-family: "Inter";
+	src: url("/fonts/Inter/Inter-Regular.woff"),
+		url("/fonts/Inter/Inter-Regular.woff2");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Inter";
+	src: url("/fonts/Inter/Inter-Medium.woff"),
+		url("/fonts/Inter/Inter-Medium.woff2");
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Inter";
+	src: url("/fonts/Inter/Inter-SemiBold.woff"),
+		url("/fonts/Inter/Inter-SemiBold.woff");
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Inter";
+	src: url("/fonts/Inter/Inter-Bold.woff"), url("/fonts/Inter/Inter-Bold.woff2");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+// Open Sans 400 600 700
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("/fonts/OpenSans/OpenSans-Regular.woff"),
+		url("/fonts/OpenSans/OpenSans-Regular.woff2");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("/fonts/OpenSans/OpenSans-SemiBold.woff"),
+		url("/fonts/OpenSans/OpenSans-SemiBold.woff2");
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("/fonts/OpenSans/OpenSans-Bold.woff"),
+		url("/fonts/OpenSans/OpenSans-Bold.woff2");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+// Montserrat 400 600 700
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("/fonts/Montserrat/Montserrat-Regular.woff"),
+		url("/fonts/Montserrat/Montserrat-Regular.woff2");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("/fonts/Montserrat/Montserrat-SemiBold.woff"),
+		url("/fonts/Montserrat/Montserrat-SemiBold.woff2");
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("/fonts/Montserrat/Montserrat-Bold.woff"),
+		url("/fonts/Montserrat/Montserrat-Bold.woff");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}

@@ -1,0 +1,12 @@
+.moderation {
+  border-radius: 15px;
+  background-color: var(--bg-block, #2f2f33);
+  padding: 20px;
+  width: 100%;
+  @media screen and (max-width: 767px) {
+    width: 400px;
+    margin: 0 auto;
+  }
+  margin-top: 10px;
+}
+

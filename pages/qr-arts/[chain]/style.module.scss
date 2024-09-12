@@ -1,0 +1,46 @@
+.section {
+  background-color: #1e1e1f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 1024px) {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tabs {
+  display: flex;
+  gap: 5px;
+  overflow-y: auto;
+  .tab {
+    background: var(--bg-block, #1f1f24);
+    color: #6E6E71;
+    &:hover {
+      background: var(--bg-block, #1F1F24);
+    }
+    &.active {
+      background: var(--bg-block, #000);
+      color: #fff;
+    }
+    padding: 10px;
+    display: block;
+    border-radius: 15px;
+    cursor: pointer;
+
+    span {
+      font-weight: bold;
+      color: #fff;
+    }
+  }
+}

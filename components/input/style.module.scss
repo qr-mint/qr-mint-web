@@ -1,0 +1,49 @@
+.input {
+	border-radius: 10px;
+	display: flex;
+	position: relative;
+	border: 1px solid #444448;
+	&.prefix {
+		input {
+			border-radius: 0 8px 8px 0px;
+			border-left: 1px solid #444448;
+		}
+	}
+	&__prefix {
+		-webkit-box-align: center;
+		align-items: center;
+		background-color: #1e1e1f;
+		display: flex;
+		padding: 0 15px;
+		border-radius: 8px 0 0 8px;
+		svg {
+			fill: white;
+		}
+	}
+
+	input {
+		font-size: 16px;
+		border-radius: 8px;
+		background-color: #1e1e1f;
+		-webkit-text-fill-color: #ffffff;
+		transition: background-color 5000s ease-in-out 0s;
+		border: none;
+		flex: 1 0 0%;
+		height: 48px;
+		outline: none;
+		padding: 0px 12px 0px 10px;
+		min-width: 0px;
+
+		&:-webkit-calendar-picker-indicator {
+			color: white;
+		}
+		&[type="time"]::-webkit-calendar-picker-indicator {
+    	background: url("/images/watch.svg") no-repeat center;
+		}
+
+		&[type="date"]::-webkit-calendar-picker-indicator{
+    	background: url("/images/calendar-2.svg") no-repeat center;
+		}
+	}
+}
+

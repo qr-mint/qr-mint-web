@@ -1,0 +1,60 @@
+.section {
+	position: relative;
+	padding: 20px;
+	margin-bottom: 50px;
+	width: 100% !important;
+	.title {
+		text-align: center;
+		font-size: 40px;
+		font-weight: 700;
+	}
+
+	.subtitle {
+		margin-top: 23px;
+		font-size: 20px;
+		line-height: 1.2;
+		text-align: center;
+		margin-bottom: 30px;
+		@media (max-width: 1600px) {
+			font-size: 24px;
+		}
+		@media (max-width: 576px) {
+			font-size: 18px;
+			text-align: center;
+		}
+	}
+}
+
+.container-mob {
+	@media screen and (max-width: 600px) {
+		flex-direction: column;
+		align-items: center;
+
+		button {
+			margin-top: 10px;
+		}
+	}
+}
+
+.canvas_container {
+	position: relative;
+	display: inline-block;
+	.canvas-overloy {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(255, 255, 255, 0); /* Прозрачный фон */
+		z-index: 10;
+	}
+}
+
+
+.block {
+	background: var(--bg-block, #2f2f33);
+	padding: 15px;
+	border-radius: 15px;
+}
+
+

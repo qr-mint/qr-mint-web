@@ -1,0 +1,30 @@
+.input {
+	border-radius: 10px;
+	display: flex;
+	position: relative;
+	
+	input {
+		border: 1px solid #444448;
+		border-radius: 5px;
+		padding: 10px;
+		font-size: 16px;
+	}
+}
+
+
+.select_block {
+	padding: 10px;
+	cursor: pointer;
+	border: 1px solid #444448;
+	margin-right: 10px;
+	border-radius: 5px;
+	background-color: rgb(31, 30, 35);
+	.description {
+		line-height: 18px;
+    font-size: 14px;
+	}
+
+	&.selected {
+		border: 1.5px solid #fff;
+	}
+}

@@ -1,0 +1,63 @@
+.card {
+  padding: 10px;
+  border-radius: 15px;
+  background: var(--bg-block, #16181c);
+  max-width: 300px;
+
+  &-title {
+    font-size: 16px;
+  }
+
+  &-image {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%; /* This makes the height equal to the width, creating a square aspect ratio */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 280px;
+  }
+
+  .card-tags {
+    margin-top: 7px;
+    display: flex;
+    gap: 2px;
+  }
+
+  .card-tag {
+    cursor: pointer;
+    background-color: #222;
+    border-radius: 15px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    max-width: 300px;
+  }
+
+  .card-image {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    max-width: 274px;
+  }
+
+  .card-image {
+    max-width: 274px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    max-width: 300px;
+  }
+
+  .card-image {
+    max-width: 300px;
+  }
+}

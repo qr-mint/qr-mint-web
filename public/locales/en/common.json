@@ -1,0 +1,245 @@
+{
+	"head": {
+		"title": "QR Mint",
+		"meta": {
+      "title": "QR Mint - QR Mint is your key to digital art!",
+			"description": "Launcher NFT with QR Art",
+			"keyboards": "NFT, QR NFT, NFT QR, QR Art, QR Image, NFT Launchpad, TON, BTC Ordinal, Bitcoin Ordinals, Bitcoin NFT, eth, eth nft, ton nft, solana"
+		}
+	},
+	"header": {
+		"connect": "Connect",
+		"partner": "Partnership",
+		"qr-arts": "QR Arts",
+		"logo": "Лого",
+		"add-project": "Add collection",
+		"collections": "NFT launchpad",
+		"dropdown": {
+			"logout": "Logout"
+		}
+	},
+	"qrarts": {
+		"title": "QR Arts",
+		"description": "Your QR Arts NFT - Could Be Here"
+	},
+	"404.Title": "Oops, something's wrong",
+	"404.Description": "This page was not found. You may have done something wrong, please try to go to the main page and try again.",
+	"404.GoToMain": "Go to Main",
+	"home": {
+		"intro": {
+			"title": "QR Mint is your key to digital art!",
+			"subtitle": "Bring your ideas to life with QR Art. Join us and create your collection on blockchains. Each NFT contains a story and information that only you can access.",
+			"our_collection": "Our collection",
+			"application": "Mini App in Telegram"
+		},
+		"mint": {
+			"title": "Mint nft now",
+			"subtitle": "Each NFT is placed in our Q-Arts collection.",
+			"connect": "Connect",
+			"next": "Next",
+			"mint": "Mint",
+			"attributes": "Attributes",
+      "price": "Price",
+			"step1": {
+				"title": "1 Stage",
+				"subtitle": "Saving data in Arweave"
+			},
+			"step2": {
+				"title": "2 Stage",
+				"subtitle": "Deploy NFT to the blockchain"
+			},
+			"step3": {
+				"title": "3 Stage",
+				"subtitle": "Sending to the owner of the NFT"
+			},
+			"form": {
+				"text": {
+					"label": "information of qr code",
+					"invalid": "Required",
+					"description": "The information inside will be displayed as NFT attributes, for example, if it contains a link to Youtube, then accordingly the attributes will be link, youtube"
+				},
+        "image": {
+          "description": "Upload images with consistent dimensions of at least 500x500 in JPG or PNG format.",
+					"invalid": "Required"
+        }
+			}
+		},
+		"opportunities": {
+			"title": "Launcher NFT with QR Art",
+			"block_1": {
+				"title": "Launch of QR Art NFT",
+				"description": "We offer a tool for creating and launching unique QR Art NFTs that can be used in various situations. From events to souvenir products, your QR Art NFTs will stand out and attract attention."
+			},
+			"block_2": {
+				"title": "Linking QR Code Functionality",
+				"description": "Our NFTs are not only beautiful but also functional. You can attach information or links to them, making them useful for promotions, marketing campaigns, and events."
+			},
+			"block_3": {
+				"title": "Support for Events and Hackathons",
+				"description": "Organize events and hackathons with our support. Create and print unique QR Art NFTs for participants, which they can use in their projects or collect as memorable souvenirs."
+			},
+			"block_4": {
+				"title": "Merchandising",
+				"description": "Create cool merch with our QR Art NFTs. T-shirts, bags, posters, and much more - with unique design and functionality."
+			},
+			"block_5": {
+				"title": "Collection and Advertising",
+				"description": "We have our own collection of QR Art NFTs where each brand can buy an NFT from us and get advertising in our collection. This is a great opportunity for companies to promote their brands and products among our audience."
+			},
+			"block_6": {
+				"title": "Marketing Campaigns",
+				"description": "Use QR Art NFTs in your marketing campaigns to attract customers and create interactive content. For example, place QR codes on advertising banners, business cards, or product packaging so that customers can quickly go to your website, get discounts, or learn more about your brand."
+			}
+		}
+	},
+	"partner": {
+		"empty": "You do not have any referrals",
+		"title": "Invite frens",
+		"description": "Invite a friend and receive 100 Q-COIN. If your friend mints an NFT, you will get 5000 Q-COIN.",
+		"send": "Send",
+		"copyLink": "Copy link",
+		"inviteButton": "Invite a fren",
+		"partner": {
+			"warning": "Our affiliate program is only available to those who have minted or purchased our NFT. Join the community of NFT holders and gain access to exclusive opportunities!"
+		}
+	},
+	"collections": {
+		"title": "Collections",
+		"subtitle": "Discover artworks and collections by some of the most famous artists from all over the world.",
+		"download": "Download QR Image",
+		"downloadRef": "Download Ref QR Image",
+		"mint": "Mint",
+		"connect": "Connect",
+		"tag": {
+			"all": "All",
+			"open": "Actual && Upcoming",
+			"closed": "Closed"
+		},
+		"qrcode": {
+			"art": "By QR Art",
+			"default": "By default"
+		},
+		"sold": {
+			"description": "Sold <1>{{mint_count}}</1> from <3>{{supply}}</3> NFTs"
+		},
+		"scan": {
+			"info": "Scan via <1>mini app</1>"
+		},
+		"card": {
+			"view": "View"
+		},
+		"timer": {
+			"label": {
+				"upcoming": "Minting will start in:",
+				"ongoing": "Minting time left:"
+			},
+			"days": "DAYS",
+			"hours": "HOURS",
+			"min": "MIN.",
+			"sec": "SEC."
+		},
+		"add": {
+			"title": "Add collection",
+			"subtitle": "Please fill out the form below according to the requirements. Please provide accurate contact information; the administration will contact you if any questions arise.",
+			"selectLink": {
+				"title": "Select type of link"
+			},
+			"form": {
+				"name": {
+					"label": "Collection title",
+					"invalid": "Collection title is required"
+				},
+				"description": {
+					"label": "Description",
+					"invalid": "Description is required",
+					"min": "Description cannot be less than 50 characters",
+  				"max": "Description cannot be more than 500 characters"
+				},
+				"price": {
+					"label": "NFT Price",
+					"description": "The minimum mint price or secondary market price should be provided here.",
+					"invalid": "Price is required"
+				},
+				"royalty_fee": {
+					"label": "Royalty Fee",
+					"description": "Percentage of each sale",
+					"invalid": "Royalty fee is required"
+				},
+				"links": {
+					"label": "Links",
+					"website": {
+						"invalid": "Please enter a valid website link."
+					},
+					"telegram_group_url": {
+						"invalid": "Telegram url incorrect"
+					},
+					"telegram_channel_url": {
+						"invalid": "Telegram url incorrect"
+					},
+					"twitter_url": {
+						"invalid": "Twitter incorrect"
+					}
+				},
+				"dynamicNFTQRAddress": {
+    			"label": "Dynamic NFT QR Address",
+    			"description": "The Dynamic NFT QR Address allows you to create personalized QR codes for your cryptocurrency wallets, exchanges, and other services."
+				},
+				"mintType": {
+  				"label": "Choose Minting Order",
+  				"invalid": "Please select a minting type"
+				},
+				"archive": {
+					"label": "Archive",
+					"description": "IMPORTANT! The archive must contain two folders: metadata and images. The images folder should contain the images, and the metadata folder should contain the JSON files without the image field. The filenames in the metadata folder must exactly match the corresponding images in the images folder. For example, if the images folder has a file named image123.webp, the metadata folder should have a file named image123.json. If there are fewer images than JSON files in the metadata directory, each image should correspond to multiple JSON files, distributed among them. In this case, use numbering or add suffixes to the filenames in the metadata directory. For example, if there is a file named image123.webp in the images directory, the metadata directory may contain files named image123_1.json, image123_2.json, and so on.",
+					"invalid": "Archive is required",
+					"random": {
+						"title": "Random Minting",
+						"subtitle": "Ideal for situations where an element of surprise is important, such as when you have 100 metadata files and several images that are randomly distributed among tokens. Perfect for creating collections with rare items or when you want to spark user interest in acquiring unique tokens."
+					},
+					"noRandom": {
+						"title": "Sequential Minting",
+						"subtitle": "Suitable for situations where you've predetermined the order of NFTs and want to maintain that exact sequence during minting. This is especially useful for historical or sequential collections where each token has a specific place in a timeline, or if it's important to ensure that certain users receive specific tokens."
+					}
+				},
+				"logo": {
+					"label": "Logo",
+					"description": "This image will also be used for navigation. 500 x 500 recommended.",
+					"invalid": "Logo is required"
+				},
+				"cover": {
+					"label": "Cover",
+					"description": "This image will appear at the top of your collection page. Avoid including too much text in this banner image, as the dimensions change on different devices. 1400 x 350 recommended.",
+					"invalid": "Cover is required"
+				},
+				"nft": {
+					"label": "NFTs",
+					"description": "You can upload up to 4 examples of your NFTs. They will be displayed on your project page. 500 x 500 recommended.",
+					"invalid": "NFTs are required"
+				},
+				"telegram_contact": {
+					"label": "Telegram Contact",
+					"description": "Specify a Telegram account where we can contact you for details.",
+					"invalid": "Invalid Telegram profile link"
+				},
+				"startedAt": {
+					"label": "Start Event",
+					"description": "Specify the start date and time for the event.",
+					"invalid": "No date specified"
+				},
+				"endedAt": {
+					"label": "End Event",
+					"description": "Specify the end date and time for the event.",
+					"invalid": "No date specified"
+				},
+				"add": "Add",
+				"moderation": "Your content is under moderation, which may take 1 to 3 days. Please wait. We will notify you of the result once the review is complete."
+			}
+		}
+	},
+	"uploadImage.errors.allowType": "Your selected file type is not allow",
+  "uploadImage.errors.maxFileSize": "Selected file size exceed maxFileSize",
+  "uploadImage.errors.resolution": "Selected file is not match your desired resolution",
+	"notification": {
+		"collections.success.created": "Collection successfully sent for moderation"
+	}
+}

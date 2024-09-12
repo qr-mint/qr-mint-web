@@ -1,0 +1,23 @@
+.socials {
+  margin-top: 24px;
+}
+
+.btn_add {
+  display: flex;
+  align-items: center;
+  padding: 11px 0px;
+  border: 1px solid #444448;
+  border-radius: 10px;
+  padding: 11px 15px;
+
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.btn_remove {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+

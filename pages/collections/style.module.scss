@@ -1,0 +1,35 @@
+.section {
+  background-color: #1e1e1f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 1024px) {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
+
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr;  
+  }
+}
+
+.tabs {
+  display: flex;
+  gap: 5px;
+  .tab {
+    background: var(--bg-block, #000);
+    padding: 10px;
+    display: block;
+    border-radius: 15px;
+
+    span {
+      font-weight: bold;
+    }
+  }
+}

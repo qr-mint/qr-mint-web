@@ -1,0 +1,156 @@
+.footer {
+	padding-bottom: 40px;
+	padding-top: 100px;
+	background-color: #1e1e1f;
+	&__inner {
+		display: flex;
+		flex-direction: column;
+	}
+	&__top {
+		display: flex;
+		flex-direction: row;
+		display: grid;
+		grid-template-columns: 1.2fr repeat(5, 1fr);
+	}
+	&__logo {
+		display: flex;
+		align-items: flex-start;
+		margin-right: 20px;
+		@media (max-width: 576px) {
+			margin-right: 0;
+			flex-direction: column-reverse;
+			align-items: center;
+			justify-content: flex-end;
+		}
+		&-name {
+			margin-left: 10px;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 24px;
+		}
+		&-img {
+			width: 50px;
+		}
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		padding: 0 10px;
+		&-title {
+			font-weight: 700;
+			min-height: 35px;
+			display: flex;
+			font-size: 18px;
+			text-align: left;
+			@media (max-width: 576px) {
+				font-size: 16px;
+			}
+		}
+	}
+	&__item:last-child {
+		align-items: flex-start;
+	}
+
+	&__list {
+		margin: 18px 0;
+
+		&-item {
+			display: flex;
+			font-weight: 500;
+			font-size: 14px;
+			color: #728a96;
+			transition: all 200ms linear;
+			@media (max-width: 576px) {
+				font-size: 12px;
+			}
+			&:hover {
+				color: var(--primary);
+			}
+			&:not(:first-child) {
+				margin-top: 15px;
+			}
+		}
+	}
+	&__bottom {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 43px;
+		border-top: 1px solid rgb(202, 202, 202);
+		@media (max-width: 1024px) {
+			flex-direction: column-reverse;
+			align-items: center;
+			row-gap: 20px;
+		}
+	}
+	&__socials {
+		display: flex;
+	}
+	&__social {
+		&-item {
+			display: flex;
+			align-items: center;
+			&:not(:first-child) {
+				margin-left: 10px;
+			}
+			svg {
+				width: 25px;
+				height: 25px;
+				border-radius: 4px;
+			}
+		}
+	}
+	&__copyright {
+		font-weight: 500;
+		font-size: 16px;
+		display: flex;
+		align-items: center;
+
+		&-logo {
+			width: 30px;
+			margin: 0 5px;
+		}
+		@media (max-width: 1024px) {
+			font-size: 12px;
+			max-width: 600px;
+		}
+		@media (max-width: 576px) {
+			font-size: 12px;
+			text-align: center;
+		}
+	}
+	&__privacy {
+		font-weight: 500;
+		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.footer {
+		&__top {
+			grid-template-columns: repeat(3, 1fr);
+		}
+		&__item {
+			&-title {
+				min-height: auto;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.footer {
+		&__top {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+}
+@media only screen and (max-width: 576px) {
+	.footer {
+		&__item {
+			&-title {
+				min-height: 60px;
+			}
+		}
+	}
+}

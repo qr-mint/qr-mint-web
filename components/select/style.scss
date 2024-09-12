@@ -1,0 +1,50 @@
+.custom-select__control {
+	font-size: 16px;
+	line-height: 19px;
+	padding: 8px 10px 8px 20px;
+	border: 1px solid #444448;
+	border-radius: 8px;
+	background: transparent !important;
+	color: #fff;
+	height: auto;
+	box-shadow: none !important;
+	text-shadow: none;
+	width: 100%;
+}
+
+.custom-select__indicator-separator {
+	display: none;
+}
+
+.custom-select__value-container {
+	padding: 0;
+}
+
+.custom-select__single-value {
+	display: flex;
+	align-items: center;
+}
+
+.custom-select__single-value {
+	color: #fff;
+}
+
+.custom-select__option {
+	display: flex;
+	align-items: center;
+
+	&.custom-select__option--is-focused {
+		color: #fff;
+		background-color: #08c;
+	}
+
+	&.custom-select__option--is-selected {
+		color: #fff;
+		background-color: #a3abb1;
+	}
+}
+
+img.icon {
+	margin-right: 10px;
+	margin-bottom: 2px;
+}
